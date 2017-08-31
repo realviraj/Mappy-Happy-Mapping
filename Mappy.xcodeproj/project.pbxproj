@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0CE0B5995A44699E584D4023 /* Pods_MappyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E29D2FED02CCD220756AE0D /* Pods_MappyTests.framework */; };
 		B220BBA670E7911ED867E5DE /* Pods_Mappy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 780A7C361408B832E3A16BCC /* Pods_Mappy.framework */; };
+		C0AC85261F58B1AA004ABA12 /* DroppablePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AC85251F58B1AA004ABA12 /* DroppablePin.swift */; };
 		C0B830B21F3E802D00D217A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B830B11F3E802D00D217A5 /* AppDelegate.swift */; };
 		C0B830B41F3E802D00D217A5 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B830B31F3E802D00D217A5 /* MapVC.swift */; };
 		C0B830B71F3E802D00D217A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0B830B51F3E802D00D217A5 /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 		780A7C361408B832E3A16BCC /* Pods_Mappy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mappy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A681249FF68F48D902E40EB /* Pods-MappyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MappyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MappyTests/Pods-MappyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8438AF984F54BEFA63728FB5 /* Pods-MappyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MappyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MappyUITests/Pods-MappyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0AC85251F58B1AA004ABA12 /* DroppablePin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DroppablePin.swift; sourceTree = "<group>"; };
 		C0B830AE1F3E802D00D217A5 /* Mappy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mappy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0B830B11F3E802D00D217A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0B830B31F3E802D00D217A5 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 		C0B830E31F3E806100D217A5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C0AC85251F58B1AA004ABA12 /* DroppablePin.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -493,6 +496,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0B830BA1F3E802D00D217A5 /* Mappy.xcdatamodeld in Sources */,
+				C0AC85261F58B1AA004ABA12 /* DroppablePin.swift in Sources */,
 				C0B830B41F3E802D00D217A5 /* MapVC.swift in Sources */,
 				C0B830B21F3E802D00D217A5 /* AppDelegate.swift in Sources */,
 			);
