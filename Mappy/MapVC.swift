@@ -51,7 +51,6 @@ class MapVC: UIViewController, UIGestureRecognizerDelegate {
         mapView.addGestureRecognizer(doubleTap)
     }
 
-    
     func addSwipe() {
         let swipe = UISwipeGestureRecognizer(target: self, action: #selector(animateViewDown))
         swipe.direction = .down
@@ -216,7 +215,6 @@ extension MapVC: CLLocationManagerDelegate {
         centerMapOnUserLoaction()
     }
 }
-
 
 extension MapVC: UICollectionViewDelegate, UICollectionViewDataSource {
    

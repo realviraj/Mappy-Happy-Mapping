@@ -35,5 +35,4 @@ class PopVC: UIViewController,UIGestureRecognizerDelegate {
     @objc func screenDoubleTap() {
         dismiss(animated: true, completion: nil)
     }
-
 }
