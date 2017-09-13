@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0CE0B5995A44699E584D4023 /* Pods_MappyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E29D2FED02CCD220756AE0D /* Pods_MappyTests.framework */; };
 		B220BBA670E7911ED867E5DE /* Pods_Mappy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 780A7C361408B832E3A16BCC /* Pods_Mappy.framework */; };
+		C08A9DA91F6898B9004DCE77 /* PopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08A9DA81F6898B9004DCE77 /* PopVC.swift */; };
 		C0AC85261F58B1AA004ABA12 /* DroppablePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AC85251F58B1AA004ABA12 /* DroppablePin.swift */; };
 		C0ADC9521F60C40000125611 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ADC9511F60C40000125611 /* PhotoCell.swift */; };
 		C0B830B21F3E802D00D217A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B830B11F3E802D00D217A5 /* AppDelegate.swift */; };
@@ -19,6 +20,7 @@
 		C0B830CA1F3E802E00D217A5 /* MappyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B830C91F3E802E00D217A5 /* MappyTests.swift */; };
 		C0B830D51F3E802E00D217A5 /* MappyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B830D41F3E802E00D217A5 /* MappyUITests.swift */; };
 		C0B830E81F3E81F500D217A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0B830E71F3E81F500D217A5 /* Assets.xcassets */; };
+		C0F11FD61F64588E00028293 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F11FD51F64588E00028293 /* Constant.swift */; };
 		E14C3921780948A124B15697 /* Pods_MappyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD3CB4A5B6EA62C9B728DB51 /* Pods_MappyUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +47,7 @@
 		780A7C361408B832E3A16BCC /* Pods_Mappy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mappy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A681249FF68F48D902E40EB /* Pods-MappyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MappyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MappyTests/Pods-MappyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8438AF984F54BEFA63728FB5 /* Pods-MappyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MappyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MappyUITests/Pods-MappyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C08A9DA81F6898B9004DCE77 /* PopVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopVC.swift; sourceTree = "<group>"; };
 		C0AC85251F58B1AA004ABA12 /* DroppablePin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DroppablePin.swift; sourceTree = "<group>"; };
 		C0ADC9511F60C40000125611 /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		C0B830AE1F3E802D00D217A5 /* Mappy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mappy.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,6 +65,7 @@
 		C0B830D61F3E802E00D217A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0B830E71F3E81F500D217A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0E395F262AA61FB6F7A4DE0 /* Pods-Mappy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mappy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mappy/Pods-Mappy.debug.xcconfig"; sourceTree = "<group>"; };
+		C0F11FD51F64588E00028293 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		E5F16E54FAAC3EC52F6FE67E /* Pods-Mappy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mappy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mappy/Pods-Mappy.release.xcconfig"; sourceTree = "<group>"; };
 		E6DD28BD19182A636816AC09 /* Pods-MappyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MappyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MappyTests/Pods-MappyTests.release.xcconfig"; sourceTree = "<group>"; };
 		FD3CB4A5B6EA62C9B728DB51 /* Pods_MappyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MappyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -180,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				C0B830B31F3E802D00D217A5 /* MapVC.swift */,
+				C08A9DA81F6898B9004DCE77 /* PopVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -210,6 +215,7 @@
 		C0B830E61F3E808300D217A5 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				C0F11FD51F64588E00028293 /* Constant.swift */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -500,9 +506,11 @@
 			files = (
 				C0B830BA1F3E802D00D217A5 /* Mappy.xcdatamodeld in Sources */,
 				C0ADC9521F60C40000125611 /* PhotoCell.swift in Sources */,
+				C08A9DA91F6898B9004DCE77 /* PopVC.swift in Sources */,
 				C0AC85261F58B1AA004ABA12 /* DroppablePin.swift in Sources */,
 				C0B830B41F3E802D00D217A5 /* MapVC.swift in Sources */,
 				C0B830B21F3E802D00D217A5 /* AppDelegate.swift in Sources */,
+				C0F11FD61F64588E00028293 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
